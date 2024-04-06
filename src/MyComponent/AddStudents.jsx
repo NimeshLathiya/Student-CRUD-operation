@@ -6,7 +6,7 @@ export const AddStudents = ({ addStudent, studentToEdit, isEdit }) => {
   const [fname, setfname] = useState("");
   const [lname, setlname] = useState("");
   const [Desc, setdesc] = useState("");
-  const { roll_number, first_name, last_name,  } = studentToEdit;
+  const { roll_number, first_name, last_name, description} = studentToEdit;
 
   console.log("edit_data__==>>", studentToEdit);
   useEffect(() => {
