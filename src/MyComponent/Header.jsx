@@ -98,7 +98,7 @@ export const Header = ({ title, search_bar = false }) => {
 };
 
 Header.propTypes = {
-  title: propTypes.,
+  title: propTypes.string,
 };
 
 Header.defaultProps = {
