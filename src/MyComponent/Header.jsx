@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
-export const Header = ({ , search_bar = false }) => {
+export const Header = ({ title, search_bar = false }) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
