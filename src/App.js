@@ -16,7 +16,7 @@ function App() {
 
   const [students, setStudents] = useState([]);
   const [studentToEdit, setStudentToEdit] = useState({});
-  const [isEdit, setIsEdit] = useState(false);
+  const [isEdit, setIsEdit] = useState();
 
   useEffect(() => {
     // did mount
