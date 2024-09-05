@@ -4,7 +4,7 @@ import { Header } from "./MyComponent/Header";
 import { Students } from "./MyComponent/Students";
 import { Footer } from "./MyComponent/Footer";
 import { useEffect, useState } from "react";
-import {  } from "./MyComponent/AddStudents";
+import { AddStudents } from "./MyComponent/AddStudents";
 
 function App() {
   // let initStudent;
